@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: mediumslateblue;
+  justify-content: center;
+}
+.wraper {
+  width: 400px;
+  height: 500px;
+  background-color: darkslateblue;
+  filter: drop-shadow(0px 5px 6px black);
+  border-radius: 20px;
+}
+.heading h1 {
+  font-family: "Josefin Sans", sans-serif;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.heading h1 {
+  background-color: rgba(48, 17, 97, 0.334);
+  border-radius: 10px;
+}
+.wrapper2 {
+  background-color: rgba(48, 17, 97, 0.334);
+  border-radius: 10px;
+  height: 400px;
+  padding: 20px;
+}
+
+.person {
+  text-align: center;
+  display: inline-block;
+}
+.switches {
+  border-radius: 18px;
+}
+.switches button {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+
+  text-align: center;
+  font-family: fantasy;
+}
+.perPerson {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 23px;
+  vertical-align: middle;
+}
+.person small {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+}
+.total {
+  text-align: center;
+  float: inline-end;
+}
+.total small {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+}
+.totaldiv {
+  text-align: center;
+  display: grid;
+  align-items: center;
+  place-items: center;
+}
+.totaldiv span {
+  background-color: white;
+  border-radius: 18px;
+  padding-top: 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.bottom {
+  position: relative;
+  top: 50px;
+}
